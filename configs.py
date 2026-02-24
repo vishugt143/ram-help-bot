@@ -3,12 +3,12 @@ from os import getenv
 class Config:
     API_ID = int(getenv("API_ID", "21419016"))
     API_HASH = getenv("API_HASH", "79198e1eb4cfd0f771a89d83b9144e7e")
-    BOT_TOKEN = getenv("BOT_TOKEN", "8231212589:AAHMoF6lruAcu6b7Xa-C9ComuZSEo6RGJPE")
+    BOT_TOKEN = getenv("BOT_TOKEN", "8770959288:AAGSaQ8_0a88qNP9WM9Tchlnpwqo0Lqt_zs")
 
     # Admin / Owner IDs (space-separated)
     SUDO = list(map(int, getenv(
         "SUDO",
-        "7554081592 5306138654 7564050858 5656436152"
+        "7554081592 6148422078 7564050858 5656436152"
     ).split()))
 
     MONGO_URI = getenv(
@@ -18,9 +18,9 @@ class Config:
 
     # Posts to copy
     POSTS = [
-        "https://t.me/forward_hack_lnx/166",
-        "https://t.me/forward_hack_lnx/167",
-        "https://t.me/forward_hack_lnx/168"
+        "https://t.me/forward_hack_lnx/201",
+        "https://t.me/forward_hack_lnx/202",
+        "https://t.me/forward_hack_lnx/203"
     ]
 
     # 🚫 ILLEGAL WORDS (BOT SIDE FILTER)
